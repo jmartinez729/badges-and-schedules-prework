@@ -12,8 +12,6 @@ end
 
 def assign_rooms(badges)
   room = 1
-  badges.collect do |name|
-    return "Hello, #{name}! You'll be assigned to room #{room}!"
-    room += 1
+  for (1..7) do 
   end 
 end 
