@@ -7,6 +7,6 @@ end
 def batch_badge_creator(badges)
   badges.collect do |name|
     badge_maker(name)
-  end 
-  
+  end
 end 
+
